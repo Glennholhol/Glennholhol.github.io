@@ -1,0 +1,606 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" href="css/techdoc.css" />
+  </head>
+  <body>
+    <nav id="navbar">
+      <header>Web Application Development</header>
+      <ul>
+        <li><a class="nav-link" href="#Course Outline">Course Outline</a></li>
+        <li>
+          <a class="nav-link" href="#What_you_should_already_know"
+            >What you should already know</a
+          >
+        </li>
+        <li>
+          <a class="nav-link" href="#Frontend Development"
+            >Frontend Development</a
+          >
+        </li>
+        <li><a class="nav-link" href="#HTML5_Elements">HTML5 Elements</a></li>
+        <li><a class="nav-link" href="#CSS flexbox & Grid layout">CSS flexbox & Grid layout</a></li>
+        <li>
+          <a class="nav-link" href="#Responsive Web Design"
+            >Responsive Web Design</a
+          >
+        </li>
+        <li><a class="nav-link" href="#JavaScript Basics and ES6 Features">JavaScript Basics and ES6 Features</a></li>
+        <li>
+          <a class="nav-link" href="#10 Advanced Git Commands">10 Advanced Git Commands</a>
+        </li>
+        <li><a class="nav-link" href="#Add & Commit">Add & Commit</a></li>
+        <li><a class="nav-link" href="#Introducing Cascading Style Sheets">Introducing Cascading Style Sheets</a></li>
+        <li>
+          <a class="nav-link" href="#Continuation of CSS"
+            >Continuation of CSS</a
+          >
+        </li>
+        
+      </ul>
+    </nav>
+    <main id="main-doc">
+      <section class="main-section" id="Course Outline">
+        <header>Course Outline</header>
+        <article>
+          <p>
+            Web Application Development involves structuring the content in a logical and progressive manner, covering key concepts and skills necessary for developing web applications. Below is a sample course outline that you can customize based on the specific technologies, tools, and programming languages you intend to cover. This outline assumes a basic understanding of HTML, CSS, and JavaScript.
+          </p>
+
+          <p>
+            Here are the main topics you need to learn to master web development:
+          </p>
+          <ul>
+            <li>
+              HTML is the standard markup language used to structure and format content on web pages, using tags to define elements and attributes, providing a hierarchical structure with start and end tags, and encompassing semantic elements for accessibility and SEO, all supported universally by web browsers.
+
+            </li>
+            <li>
+              CSS, or Cascading Style Sheets, complements HTML by controlling the visual appearance and layout of web pages, allowing for the customization of fonts, colors, spacing, and responsive design, enhancing the overall user experience and presentation of content.
+            </li>
+            <li>
+              JavaScript, often abbreviated as JS, is a versatile programming language used alongside HTML and CSS to add interactivity, dynamic behavior, and functionality to web pages, enabling features like animations, form validations, and asynchronous communication with servers, enhancing the user experience and interactivity of web applications.
+
+            </li>
+          </ul>
+        </article>
+      </section>
+      <section class="main-section" id="What_you_should_already_know">
+        <header>What you should already know</header>
+        <article>
+          <p>This guide assumes you know the following basic background:</p>
+ 
+          <ul>
+            <li>
+              Basic Computer Skills: Comfortable navigating and using a computer, including file management, using the internet, and installing software.
+
+HTML Fundamentals: Understanding of HTML tags, elements, attributes, and the structure of a web page.
+
+CSS Basics: Familiarity with CSS selectors, properties, values, and how to style HTML elements to achieve desired layouts and designs.
+
+JavaScript Basics: Knowledge of JavaScript syntax, variables, data types, functions, and basic DOM manipulation to add interactivity to web pages.
+            </li>
+            <li>Web Browsers: Understanding of how web browsers interpret and render HTML, CSS, and JavaScript, as well as basic debugging techniques using browser developer tools.
+
+              Version Control (Optional but Recommended): Basic understanding of version control concepts and tools like Git to track changes, collaborate with others, and manage your codebase.
+              
+              Responsive Design Principles: Awareness of responsive design principles and techniques to create web pages that are optimized for various devices and screen sizes.</li>
+            <li>
+              Basic Terminal/Command Line Skills: Comfortable using the command line interface for tasks like navigating directories, running scripts, and managing files.
+
+              Text Editor/IDE Familiarity: Experience using text editors or integrated development environments (IDEs) like Visual Studio Code, Sublime Text, or Atom for writing and editing code.
+              
+              Debugging Skills: Ability to identify and fix common issues or errors in HTML, CSS, and JavaScript code using debugging tools and techniques.
+            </li>
+          </ul>
+        </article>
+      </section>
+      <section class="main-section" id="Frontend Development">
+        <header>Frontend Develpoment</header>
+        <article>
+          <p>
+            Frontend development focuses on creating visually appealing, interactive, and user-friendly interfaces for websites and web applications. It involves a combination of HTML, CSS, and JavaScript, along with various frameworks, libraries, and tools to enhance the user experience and optimize performance. 
+          </p>
+
+          <p>
+            <ul>
+            Core Technologies:
+
+<li>HTML: Structure and content of web pages.
+CSS: Styling, layout, and presentation of web pages.
+JavaScript: Adding interactivity, dynamic behavior, and functionality to web pages.
+Frameworks & Libraries:</li>
+
+<li>Frontend Frameworks: Popular frontend frameworks like React, Angular, and Vue.js for building interactive and scalable web applications.
+CSS Frameworks & Preprocessors: Bootstrap, Foundation, Tailwind CSS, Sass, and Less to streamline styling and layout.
+JavaScript Libraries: jQuery, lodash, and Axios for DOM manipulation, utility functions, and HTTP requests.
+Responsive & Adaptive Design:</li>
+
+<li>Responsive Design: Creating web pages that adapt and respond to different devices and screen sizes using media queries, flexible grids, and fluid layouts.
+Mobile-First Design: Prioritizing mobile design and ensuring a seamless user experience across all devices and resolutions.
+Web Performance Optimization:</li>
+
+<li>Performance Best Practices: Minifying CSS/JS files, optimizing images, lazy loading, and reducing render-blocking resources to improve page load times and overall performance.
+Web Performance Tools: Tools like Lighthouse, PageSpeed Insights, and WebPageTest for analyzing and optimizing web performance.
+Web Accessibility:</li>
+
+<li>Accessibility Standards: Adhering to WCAG (Web Content Accessibility Guidelines) to ensure web content is accessible to all users, including those with disabilities.
+Semantic HTML & ARIA: Using semantic HTML elements and ARIA (Accessible Rich Internet Applications) roles and attributes to enhance accessibility and usability.</li>
+
+          </ul>
+          </p>
+          <p>
+            Version Control & Collaboration:
+
+<li>Git & GitHub: Using Git for version control, branching, and merging, and GitHub for collaboration, code reviews, and project management.
+Build & Automation Tools:</li>
+
+<li>Task Runners & Build Tools: Gulp, Grunt, and Webpack for automating repetitive tasks, optimizing assets, and building production-ready code.
+Package Managers: npm (Node Package Manager) and Yarn for managing and installing project dependencies.
+Debugging & Browser Developer Tools:</li>
+
+<li>Browser Developer Tools: Familiarity with browser developer tools for debugging, inspecting elements, analyzing network activity, and optimizing web performance.
+Cross-Browser Compatibility:</li>
+
+<li>Browser Testing: Ensuring web pages and applications are compatible and function correctly across different web browsers and versions.
+Continuous Learning & Keeping Up with Trends:</li>
+
+<li>Learning Resources: Utilizing online tutorials, courses, documentation, and community forums to stay updated with the latest frontend technologies, best practices, and trends.</li>
+          </p>
+        </article>
+      </section>
+      <section class="main-section" id="HTML5_Elements">
+        <header>HTML5 Elements</header>
+        <article>
+          HTML5 introduced several semantic elements that provide meaning and structure to web content, improving accessibility, SEO, and the overall organization of web pages. Here are some of the key HTML5 semantic elements:
+          <code
+            >header
+            nav
+            main
+            article
+            section
+            aside
+            footer
+            figure
+            figcaption
+            details
+            summary
+            time
+            mark
+            progress
+            meter
+            datalist
+            
+        
+          </code>
+
+          Select the code in the pad and hit Ctrl+R to watch it unfold in your
+          browser!
+        </article>
+      </section>
+      <section class="main-section" id="CSS flexbox & Grid layout">
+        <header>CSS flexbox & Grid layout</header>
+        <p>
+          CSS Flexbox and Grid layout are powerful layout models in CSS that allow developers to design complex and responsive web layouts with ease. Here's a brief overview of both:
+        </p>
+        <p>
+          CSS Flexbox (Flexible Box Layout):
+        </p>
+        <p>
+          Properties:
+
+          <ul>
+
+          
+          <li>flex-direction: Specifies the direction of the main axis (row, row-reverse, column, column-reverse).</li>
+          <li>flex-wrap: Controls whether flex items should wrap onto multiple lines.</li>
+          <li>justify-content: Aligns flex items along the main axis.</li>
+          <li>align-items: Aligns flex items along the cross axis.</li>
+          <li>align-content: Controls space between flex lines when there's extra space in the container.
+          </li>
+          <li>flex: Shorthand for flex-grow, flex-shrink, and flex-basis properties.
+          </li>
+          <li>order: Controls the order of flex items.</li>
+          </ul>
+
+          Properties:
+
+
+          <ul> 
+
+            <li>grid-template-rows & grid-template-columns: Define the number and size of grid rows and columns.</li>
+            <li>grid-gap or grid-row-gap & grid-column-gap: Sets the gap between grid rows and columns.
+            </li>
+            <li>grid-template-areas: Defines named grid areas for placing grid items.</li>
+            <li>grid-auto-rows & grid-auto-columns: Sets the size of rows and columns that aren't explicitly defined.
+            </li>
+            <li>justify-items: Aligns grid items along the row axis.
+            </li>
+            <li>align-items: Aligns grid items along the column axis.
+            </li>
+            <li>place-items: Shorthand for justify-items and align-items.
+            </li>
+            <li>grid-template: Shorthand for defining rows, columns, and areas.</li>
+            <li>grid: Shorthand for defining both grid-template-rows, grid-template-columns, and grid-template-areas.</li>
+          </ul>
+
+
+        </p>
+      </section>
+      <section class="main-section" id="Responsive Web Design">
+        <header>Responsive web Design</header>
+        <article>
+          Responsive web design is an approach to web development that ensures web pages and content adapt and respond seamlessly to various screen sizes, resolutions, and device capabilities, providing an optimal user experience across desktops, tablets, and mobile devices. Here's an overview of responsive web design principles and techniques:
+          <p>
+            Key Principles:
+             <code> Flexible Grid Layouts: Use relative units like percentages or em to create flexible and fluid grid layouts that can adapt to different screen sizes and resolutions.
+
+              Media Queries: Utilize CSS media queries to apply different styles and layouts based on the device characteristics such as screen width, height, orientation, and resolution.
+              
+              Flexible Images and Media: Ensure images, videos, and other media elements are responsive by setting their maximum width to 100% and allowing them to scale within their parent containers.
+              
+              Viewport Meta Tag: Include the viewport meta tag (<meta name="viewport" content="width=device-width, initial-scale=1.0">) in the HTML head to control the page's dimensions and scaling on mobile devices.</code> This
+            syntax can be used to make your web more responsive.
+          </p>
+          <p>
+            Responsive Web Design Techniques:
+            <code> Mobile-First Approach: Start with a mobile-friendly design and then progressively enhance and add features for larger screens using media queries.
+
+              Fluid Layouts with Flexbox & Grid: Use CSS Flexbox and Grid layout models to create flexible and adaptive layouts that can easily adjust to different screen sizes and orientations.
+              
+              Responsive Images: Implement responsive images techniques like srcset and sizes attributes, and the picture element to serve appropriate image sizes and resolutions based on the device's screen size and resolution.
+              
+              CSS Frameworks: Utilize responsive CSS frameworks like Bootstrap, Foundation, or Tailwind CSS that come with built-in grid systems, components, and utilities for creating responsive web designs.
+              
+              Viewport Units: Use viewport-relative units (vw, vh, vmin, vmax) in CSS for font sizes, margins, paddings, and other dimensions to ensure they scale proportionally with the viewport size.
+              
+              Media Queries & Breakpoints: Define breakpoints in CSS media queries to adjust layout, styling, and content presentation at specific screen sizes, ensuring readability and usability across various devices.
+              
+              Progressive Enhancement: Implement progressive enhancement by starting with a basic, accessible, and functional design and then adding advanced features, interactivity, and styles for more capable browsers and devices.</code> The list shown here are the techniques.
+          </p>
+          <p>
+            Benefits of Responsive Web Design:<code> Improved User Experience: Ensures a consistent and optimal user experience across all devices and screen sizes, reducing bounce rates and improving user engagement and satisfaction.
+
+              Cost-Efficiency: Eliminates the need for developing separate websites or apps for different devices, reducing development and maintenance costs.
+              
+              SEO-Friendly: Enhances search engine rankings by providing a single, accessible, and mobile-friendly website that Google and other search engines prefer and prioritize in search results.
+              
+              Future-Proofing: Adaptable and scalable design that can easily accommodate new devices, screen sizes, and technologies, ensuring longevity and relevance of the website.</code> 
+              In conclusion, responsive web design is essential in today's multi-device, mobile-first digital landscape, enabling websites to reach a broader audience, improve user experience, and stay competitive in the ever-evolving web industry.
+            
+          </p>
+        </article>
+      </section>
+      <section class="main-section" id="JavaScript Basics and ES6 Features">
+        <header>JavaScript Basics and ES6 Features</header>
+        <article>
+          <p>
+            JavaScript is a versatile and powerful programming language used to add interactivity, dynamic behavior, and functionality to web pages and web applications. Here's an overview of JavaScript basics and some of the key features introduced in ES6 (ECMAScript 2015) and later versions
+          </p>
+
+          <p>
+            In conclusion, understanding JavaScript basics and ES6 features is crucial for modern web development, enabling developers to build robust, scalable, and maintainable web applications and stay updated with the latest advancements and best practices in JavaScript programming.
+          </p>
+          <code>Variables & Data Types:
+
+            var, let, and const for variable declaration.
+            Data types: Number, String, Boolean, Object, Array, null, and undefined.
+            Operators:
+            
+            Arithmetic operators (+, -, *, /, %).
+            Comparison operators (==, ===, !=, !==, >, <, >=, <=).
+            Logical operators (&&, ||, !).
+            Control Structures:
+            
+            if, else if, else for conditional statements.
+            for, while, do-while for loops.
+            switch for multi-case selection.
+            Functions:
+            
+            Declaring functions using function keyword.
+            Function expressions, anonymous functions, and arrow functions (=>).
+            Objects & Arrays:
+            
+            Object literals {}, properties, and methods.
+            Arrays, array methods (push, pop, shift, unshift, splice, slice).
+            DOM Manipulation:
+            
+            Selecting and manipulating HTML elements.
+            Event handling, event listeners, and event propagation.
+            Error Handling:
+            
+            try, catch, finally for error handling and exception handling.
+            ES6 (ECMAScript 2015) Features:
+            
+            let & const:
+            
+            Block-scoped variable declaration (let) and constant declaration (const).
+            Arrow Functions:
+            
+            Concise syntax for writing functions using =>.
+            Template Literals:
+            
+            Enhanced string literals using backticks ` for string interpolation and multi-line strings.
+            Destructuring Assignment:
+            
+            Extracting values from arrays or properties from objects into distinct variables.
+            Spread & Rest Operator:
+            
+            ... spread operator for arrays and objects, and rest parameter in function parameters.
+            Default Parameters:
+            
+            Default parameter values in function declarations.
+            Object & Array Enhancements:
+            
+            Object literal enhancements ({ key: value }).
+            Array methods (find, findIndex, includes, entries, keys, values).
+            Classes & Inheritance:
+            
+            Class declarations, constructors, methods, and inheritance using extends and super.
+            Modules:
+            
+            import and export for module loading and dependency management.
+            Promises & Async/Await:ariables & Data Types:
+            
+            var, let, and const for variable declaration.
+            Data types: Number, String, Boolean, Object, Array, null, and undefined.
+            Operators:
+            
+            Arithmetic operators (+, -, *, /, %).
+            Comparison operators (==, ===, !=, !==, >, <, >=, <=).
+            Logical operators (&&, ||, !).
+            Control Structures:
+            
+            if, else if, else for conditional statements.
+            for, while, do-while for loops.
+            switch for multi-case selection.
+            Functions:
+            
+            Declaring functions using function keyword.
+            Function expressions, anonymous functions, and arrow functions (=>).
+            Objects & Arrays:
+            
+            Object literals {}, properties, and methods.
+            Arrays, array methods (push, pop, shift, unshift, splice, slice).
+            DOM Manipulation:
+            
+            Selecting and manipulating HTML elements.
+            Event handling, event listeners, and event propagation.
+            Error Handling:
+            
+            try, catch, finally for error handling and exception handling.
+            ES6 (ECMAScript 2015) Features:
+            
+            let & const:
+            
+            Block-scoped variable declaration (let) and constant declaration (const).
+            Arrow Functions:
+            
+            Concise syntax for writing functions using =>.
+            Template Literals:
+            
+            Enhanced string literals using backticks ` for string interpolation and multi-line strings.
+            Destructuring Assignment:
+            
+            Extracting values from arrays or properties from objects into distinct variables.
+            Spread & Rest Operator:
+            
+            ... spread operator for arrays and objects, and rest parameter in function parameters.
+            Default Parameters:
+            
+            Default parameter values in function declarations.
+            Object & Array Enhancements:
+            
+            Object literal enhancements ({ key: value }).
+            Array methods (find, findIndex, includes, entries, keys, values).
+            Classes & Inheritance:
+            
+            Class declarations, constructors, methods, and inheritance using extends and super.
+            Modules:
+            
+            import and export for module loading and dependency management.
+            Promises & Async/Await:</code>
+          <p>
+            This behavior changes, when using the let declaration introduced in
+            JavaScript & ESG features.
+          </p>
+
+          <code
+            >Improved Readability & Maintainability: Enhancements like arrow functions, template literals, and destructuring assignment simplify and streamline code, making it more readable and maintainable.
+
+            Enhanced Functionality & Productivity: New features and syntax improvements boost productivity and enable developers to write more expressive and efficient code.
+            
+            Consistency & Compatibility: ES6 introduces standardized features and syntax that enhance consistency across JavaScript codebases and improve compatibility across browsers and environments.</code
+          >
+        </article>
+      </section>
+      <section class="main-section" id="10 Advanced Git Commands">
+        <header>10 Advanced Git Commands</header>
+        <article>
+          <p>
+            Enhanced Workflow & Productivity: Advanced Git commands help streamline development workflows, improve collaboration, and increase productivity by providing powerful tools for managing complex version control tasks.
+
+Cleaner & More Manageable History: Advanced Git commands enable you to maintain a clean, organized, and manageable repository history by allowing you to reorganize commits, apply selective changes, and manage dependencies effectively.
+          </p>
+
+          <p>
+            Improved Collaboration & Code Quality: Advanced Git features facilitate better collaboration among team members, ensure code quality by enabling selective code integration and review, and help identify and resolve issues more efficiently.
+
+            In conclusion, mastering advanced Git commands and features empowers developers to effectively manage and control their Git repositories, optimize development workflows, collaborate more efficiently, and maintain a clean and organized codebase, enhancing overall development productivity, and code quality.
+          </p>
+        </article>
+      </section>
+      <section class="main-section" id="Add & Commit">
+        <header>Add & Commit</header>
+        <article>
+          <p>
+            In Git, add and commit are fundamental commands used to track changes and save snapshots of your project's current state. Here's an overview of these essential Git commands and how they work:
+          </p>
+
+          <code>$ git add .
+            $ git commit -m "new project"
+          
+            $ git commit -am "new project"
+
+            [master 17d7675] new project
+            4 files changed, 2 insertions(+), 1 deletion(-)
+          </code>
+          <p>
+            git add .
+          </p>
+
+          <p>
+            git commit -m "vlahvlah"
+          </p>
+
+          <p>
+           AMMEND CODE & REVERT CODE
+          </p>
+
+          <code
+            >$ git commit --amend -m "Love"
+
+            [master 7b7f891] Love
+            Date: Mon Jan 22 17:57:58 2024 +0500
+            4 files changed, 2 insertions(+), 1 deletion(-)
+            
+            $ git add . 
+$ git commit --amend --no-edit
+
+[master f425059] Love
+Date: Mon Jan 22 17:57:58 2024 +0500
+6 files changed, 2 insertions(+), 34 deletions(-)
+</code
+          >
+          However, object attributes are not protected, so the following
+          statement is executed without problems.
+          <code
+            >f425059 (HEAD -> master, origin/master) Love
+            8f184d5 first commit</code
+          >
+        </article>
+      </section>
+      <section class="main-section" id="Introducing Cascading Style Sheets">
+        <header>Introducing Cascading Style Sheets</header>
+        <article>
+          <p>Objectives</p>
+          <ul>
+            <li>
+              <p>When you complete this chapter, you will be able to:</p>
+              <ul>
+                <li>Recognize the benefits of using CSS</li>
+                <li>
+                  Build a basic style sheet
+                </li>
+                <li>
+                  Use inheritance to write simpler style rules
+                </li>
+                <li>Examine basic selection techniques</li>
+                <li>Apply basic selection techniques</li>
+                <li>
+                  - Use * the and  elements.
+                </li>
+              </ul>
+            </li>
+
+            <li>Use other selectors</li>
+          </ul>
+          Although these data types are a relatively small amount, they enable
+          you to perform useful functions with your applications. Objects and
+          functions are the other fundamental elements in the language. You can
+          think of objects as named containers for values, and functions as
+          procedures that your application can perform.
+        </article>
+      </section>
+      <section class="main-section" id="Continuation of CSS">
+        <header>Continuation of CSS</header>
+        <article>
+          CSS, or Cascading Style Sheets, is a fundamental technology used to style and layout web pages, enhancing their appearance, responsiveness, and user experience. In this article, we'll delve into the basics of CSS, its key features, and best practices to help you master the art of styling web content.
+
+          <code>/* Selector */
+            selector {
+              /* Property: Value */
+              property: value;
+            }
+            </code>
+          <p>
+            BASIC SYNTAX
+          </p>
+          <code>
+          // Responsive Design */
+          @media screen and (max-width: 768px) {
+            /* Styles for screens <= 768px */
+            body {
+              font-size: 14px;
+            }
+          }
+          
+          </code>
+          The CSS Box Model comprises the content area, padding, border, and margin of an element, affecting its layout and spacing on the web page.
+
+Content: The actual content area where text, images, or other media are displayed.
+Padding: The space between the content and the element's border.
+Border: The visible boundary around the element's padding.
+Margin: The space outside the element's border, separating it from other elements.
+
+          <code
+            >/* Basic CSS Styling */
+
+            /* Targeting Paragraph Elements */
+            p {
+              font-family: Arial, sans-serif; /* Set font family */
+              font-size: 16px; /* Set font size */
+              line-height: 1.5; /* Set line height */
+              color: #333; /* Set text color */
+            }
+            
+            /* Targeting Heading Elements */
+            h1, h2, h3 {
+              font-family: 'Times New Roman', serif; /* Set font family */
+              color: #555; /* Set text color */
+            }
+            
+            /* Styling Links */
+            a {
+              text-decoration: none; /* Remove underline */
+              color: #0077cc; /* Set link color */
+            }
+            
+            a:hover {
+              text-decoration: underline; /* Add underline on hover */
+            }
+            </code
+          >
+          This code snippet demonstrates basic CSS styling targeting HTML elements by their tag names and applying styling properties and values to define their appearance.
+          <code>/* Responsive Design with Media Queries */
+
+            /* Default Styles */
+            body {
+              font-family: Arial, sans-serif; /* Set default font family */
+              font-size: 16px; /* Set default font size */
+            }
+            
+            /* Media Query for Small Screens */
+            @media screen and (max-width: 768px) {
+              body {
+                font-size: 14px; /* Decrease font size for screens <= 768px */
+              }
+            }
+            
+            /* Media Query for Medium Screens */
+            @media screen and (min-width: 769px) and (max-width: 1024px) {
+              body {
+                font-size: 18px; /* Increase font size for screens between 769px and 1024px */
+              }
+            }
+            
+            /* Media Query for Large Screens */
+            @media screen and (min-width: 1025px) {
+              body {
+                font-size: 20px; /* Increase font size for screens >= 1025px */
+              }
+            }
+            </code>This code snippet demonstrates a simple responsive design using media queries to adjust the font size based on the screen width, creating a more readable and user-friendly experience on smaller screens.  
+    </main>
+  </body>
+</html>
